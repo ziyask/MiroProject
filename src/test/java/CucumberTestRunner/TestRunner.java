@@ -9,11 +9,9 @@ import org.junit.runner.RunWith;
                 features = {"src/test/resources/MiroFeatures"},
                 glue = {"StepDefinitionsFiles"},
                 tags = "@All",
-                plugin = {"pretty", "json:target/Reports/report.json"
-                            ,"json:target/Reports/report.xml"},
+                plugin = {"pretty", "json:target/Reports/report.json","json:target/Reports/report.xml"},
                 publish = true
 )
 public class TestRunner {
-
 
 }
